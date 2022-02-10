@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İnternet Programcılığı Final Ödevi</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <div id="calculator">
+    <div id="screen">
+    </div>
+    <div id="calculate">
+    </div>
+    <div id="keyboard">
+        <div class="row">
+            <div class="key" onmousedown="yazdir('7')">
+            7
+            </div>
+            <div class="key" onmousedown="yazdir('8')">
+            8
+             </div>
+             <div class="key" onmousedown="yazdir('9')">
+            9
+             </div>
+             <div class="key" onmousedown="islem=4;" style="background-color: indianred;">
+            /
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="key" onmousedown="yazdir('4')">
+                4
+            </div>
+            <div class="key" onmousedown="yazdir('5')">
+                5
+            </div>
+            <div class="key" onmousedown="yazdir('6')">
+                6
+            </div>
+            <div class="key" onmousedown="islem=3;" style="background-color: indianred;">
+                x
+            </div>
+        </div>
+        <div class="row">
+            <div class="key" onmousedown="yazdir('1')">
+                1
+            </div>
+            <div class="key" onmousedown="yazdir('2')">
+                2
+            </div>
+            <div class="key" onmousedown="yazdir('3')">
+                3
+            </div>
+            <div class="key" onmousedown="islem=1" style="background-color: indianred;">
+                +
+            </div>
+        </div>
+        <div class="row">
+            <div class="key" onmousedown="temiz()" style="background-color: orangered;">
+                C
+            </div>
+            <div class="key" onmousedown="yazdir('0')">
+                0
+            </div>
+            <div class="key" onmousedown="sonucf()" style="background-color: rgb(0, 209, 216);">
+                =
+            </div>
+            <div class="key" onmousedown="islem=2" style="background-color: indianred;">
+                -
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
